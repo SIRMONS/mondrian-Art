@@ -1,0 +1,119 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont {
+    display: grid;
+    width: 1200px;
+    height: 1190px;
+    background-color: black;
+    grid-template-columns: 125px 130px 130px 280px 170px 170px auto;
+    grid-template-rows: 125px 285px 280px 130px 130px auto;
+    gap: 15px;
+}
+
+.item {
+    background-color: aqua;
+}
+
+.a {
+    grid-column: span 2;
+    background-color:  #E5E7E6;
+}
+
+.b {
+    grid-column: span 2;
+    background-color: #f9ecdb;
+}
+
+.c {
+    grid-column: span 2;
+    background-color: #fcd667;
+}
+
+.e {
+    background-color: #f9ecdb;
+}
+
+.d {
+    grid-row: span 4;
+    background-color:  #E5E7E6;
+}
+
+.f {
+    grid-column: span 3;
+    grid-row: span 2;
+    background-color: #de321c;
+}
+
+.g {
+    grid-column: span 2;
+    background-color: #fcd667;
+}
+
+.h {
+    grid-row: span 2;
+    background-color:  #E5E7E6;
+}
+
+.i {
+    background-color: #f9ecdb;
+}
+
+.j {
+    background-color: #f9ecdb;
+}
+
+.k {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #14050a;
+}
+
+.l {
+    background-color:  #E5E7E6;
+}
+
+.m {
+    grid-column: span 2;
+    background-color: #f9ecdb;
+}
+
+.n {
+    grid-row: span 3;
+    background-color: #fcd667;
+}
+
+.o {
+    background-color:  #E5E7E6;
+}
+
+.p {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #1a18a0;
+}
+
+.q {
+    grid-row: span 3;
+    background-color: #de321c;
+}
+
+.r {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #f9ecdb;
+}
+
+.s {
+    background-color: #14050a;
+}
+
+.t {
+    grid-column: span 3;
+    background-color:  #E5E7E6;
+}
+
